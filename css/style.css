@@ -13,19 +13,9 @@ p {
 }
 .byline {
   font-family: Helvetica;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   float: left;
   font-size: 50px;
-  padding-left: 10px;
   text-transform: uppercase;
   
-  .content {
-  padding: 40px;
-}
-  
-  .image {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
+ 
