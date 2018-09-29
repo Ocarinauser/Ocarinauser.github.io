@@ -18,3 +18,14 @@ p {
   font-size: 14px;
   padding-left: 10px;
   text-transform: uppercase;
+  
+  .content {
+  padding: 40px;
+}
+  
+  .image {
+  background-image: url(profilePic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
