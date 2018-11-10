@@ -12,11 +12,35 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  color: green;
+  text-align: left;
+}
+
+h4 {
+  color: Purple;
+  text-align: left;
+}
+
+h5 {
+  color: Red;
+  text-align: center;
+  font-size:40px;
+}
+
+h6 {
+  color: Orange;
+  text-align: center;
+  font-size:40px;
+}
+
+
 element {
   color: Brown
    font-family: verdana;
   font-size:40px;
 }
+
 .byline {
   font-family: Helvetica;
   color: black;
