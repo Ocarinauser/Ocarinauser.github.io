@@ -8,28 +8,7 @@ h1 {
 }
 
 h2 {
-  color: blue;
-  text-align: left;
-}
-
-h3 {
-  color: green;
-  text-align: left;
-}
-
-h4 {
-  color: Purple;
-  text-align: left;
-}
-
-h5 {
-  color: Red;
-  text-align: center;
-  font-size:40px;
-}
-
-h6 {
-  color: Orange;
+  color: black;
   text-align: center;
   font-size:40px;
 }
