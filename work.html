@@ -12,7 +12,7 @@
         <a href= "work.html">Work</a>
       </div>
 
-<h1>Accessibility Page</h2><br>
+<h1>Accessibility Page</h1><br>
 <div id="accessibility-container">
 <p>  I made a body paragraph describing myself and what I do. I used canvas and svg elements to make art for my website.
       I used an audio file from a game to include in my portfolio.
@@ -22,4 +22,30 @@
       I included a navigation bar to go to links like this work page.
       I did this because I wanted to improve my coding and wanted to see what I created.
 </div>
+      
+      
 
+      <h2>Ceaser Cipher</h2>
+      <button onclick="myFunction()">Encipher Message</button>
+      <p id="output"></p>
+      <script>
+            function myFunction() {
+                  var encryptor = prompt("What is your message?","");
+                  var position = 0;
+                  var asciiCode;
+                  var shiftedAsciiCode;
+                  var encryptedMessage = "";
+                  var count = 0;
+                  var timesToExecute = 1000;
+                  
+                  if (encryptor !=null) {
+                        document.getElementById("output").innerHTML = encryptor
+                        while(count < timesToExecute){
+                              asciiCode = encryptor.charCodeAt(position); // gets the code for the first letter shiftedAsciiCode =asciiCode +3;//
+                              encryptedMessage = encryptedMessage + Spring.fromCharCode(shiftedAsciiCode);
+                              position = position + 1;}
+                        count = count + 1;}
+                  document.getElementById("output").innerHTML = encryptedMessage;}}
+      </script>
+                         
+                        
