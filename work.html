@@ -25,28 +25,6 @@
       
       
 
-      <h2>Ceaser Cipher</h2>
-      <button onclick="myFunction()">Encipher Message</button>
-      <p id="output"></p>
-      <script>
-            function myFunction() {
-                  var encryptor = prompt("What is your message?","");
-                  var position = 0;
-                  var asciiCode;
-                  var shiftedAsciiCode;
-                  var encryptedMessage = "";
-                  var count = 0;
-                  var timesToExecute = 1000;
-                  
-                  if (encryptor !=null) {
-                        document.getElementById("output").innerHTML = encryptor
-                        while(count < timesToExecute){
-                              asciiCode = encryptor.charCodeAt(position); 
-                              shiftedAsciiCode =asciiCode +3;
-                              encryptedMessage = encryptedMessage + String.fromCharCode(shiftedAsciiCode);
-                              position = position + 1;
-                        count = count + 1;}
-                  document.getElementById("output").innerHTML = encryptedMessage;}}
-      </script>
+      
                          
                         
