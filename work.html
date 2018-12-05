@@ -42,7 +42,7 @@
                         document.getElementById("output").innerHTML = encryptor
                         while(count < timesToExecute){
                               asciiCode = encryptor.charCodeAt(position); // gets the code for the first letter shiftedAsciiCode =asciiCode +3;//
-                              encryptedMessage = encryptedMessage + Spring.fromCharCode(shiftedAsciiCode);
+                              encryptedMessage = encryptedMessage + String.fromCharCode(shiftedAsciiCode);
                               position = position + 1;}
                         count = count + 1;}
                   document.getElementById("output").innerHTML = encryptedMessage;}}
